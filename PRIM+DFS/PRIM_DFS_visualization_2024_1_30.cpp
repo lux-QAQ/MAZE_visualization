@@ -42,7 +42,7 @@ public:
 	}
 };
 
-int map[BLOCK_WIDTH][BLOCK_HEIGHT];//0代表空气，1代表墙壁，2代表待选路点，3代表选中路点（但是并没有用到）
+int map[BLOCK_WIDTH][BLOCK_HEIGHT];//地图
 vector<block*> openlist;//待选列表
 vector<block*> list;
 vector<block*> pathlist; // 路径列表
